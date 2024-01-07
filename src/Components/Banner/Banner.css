@@ -1,0 +1,30 @@
+.promo-banner {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .promo-code {
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+  }
+  
+  .notification {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width:800px){
+    .promo-banner{
+        position: static;
+    }
+  }
